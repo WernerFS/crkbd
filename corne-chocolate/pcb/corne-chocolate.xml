@@ -1,950 +1,1034 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<export version="D">
+<export version="E">
   <design>
-    <date>2018年01月19日金曜日 23:37:58</date>
-    <tool>Eeschema 4.0.7</tool>
+    <source>D:\User\GITS\crkbd\corne-chocolate\pcb\corne-chocolate.kicad_sch</source>
+    <date>22/01/23 20:58:43</date>
+    <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Blockbd</title>
+        <title>Corne Chocolate</title>
         <company>foostan</company>
-        <rev>0.0.1</rev>
-        <date/>
-        <source>blockbd.sch</source>
+        <rev>2.0</rev>
+        <date>2018-11-16</date>
+        <source>corne-chocolate.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
       </title_block>
     </sheet>
   </design>
   <components>
-    <comp ref="U1">
-      <value>ProMicro</value>
-      <footprint>promicro:ProMicro</footprint>
-      <libsource lib="promicro" part="ProMicro"/>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E14C2</tstamp>
+      <tstamps>8a5fe76d-5026-4259-96ae-0e6f26868c7d</tstamps>
     </comp>
-    <comp ref="SW6">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="pspice" part="C" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2699</tstamp>
+      <tstamps>446fe3d7-29ec-4d57-9d5a-2388d813c536</tstamps>
     </comp>
-    <comp ref="D6">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
+    <comp ref="IC1">
+      <value>PCA9505</value>
+      <footprint>User-defined-footprints:TSSOP-56_7x14mm_P0.5mm_mr</footprint>
+      <libsource lib="Cyberdeck Mech Keeb-cache" part="Cyberdeck_Mech_Keeb-eagle-import_PCA9505" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E26C6</tstamp>
+      <tstamps>adc3f025-16d8-4db2-82e7-2622c05ca42c</tstamps>
     </comp>
-    <comp ref="SW11">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="IC2">
+      <value>PCA9505</value>
+      <footprint>User-defined-footprints:TSSOP-56_7x14mm_P0.5mm_mr</footprint>
+      <libsource lib="Cyberdeck Mech Keeb-cache" part="Cyberdeck_Mech_Keeb-eagle-import_PCA9505" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E27F9</tstamp>
+      <tstamps>7aafaec3-09b5-4b77-aab3-ac98a9e86028</tstamps>
     </comp>
-    <comp ref="D11">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
+    <comp ref="J1">
+      <value>MJ-4PP-9</value>
+      <footprint>User-defined-footprints:4-ring-jack-mr</footprint>
+      <libsource lib="corne-chocolate-rescue" part="MJ-4PP-9-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E281F</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005acd605d</tstamps>
     </comp>
-    <comp ref="SW16">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="J2">
+      <value>FH12A-12S-0.5SH_55_</value>
+      <footprint>lib:FH12A12S05SH55</footprint>
+      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12A-12S-0.5SH(55)</datasheet>
+      <fields>
+        <field name="Description">Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</field>
+        <field name="Height">3.6</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12A-12S-0.5SH(55)</field>
+        <field name="Mouser Part Number">798-FH12A-12S0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12A-12S-05SH55/?qs=Ux3WWAnHpjBCmvKEtHAdxA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="FH12A-12S-0.5SH_55_" description="Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Description" value="Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Height" value="3.6"/>
+      <property name="Mouser Part Number" value="798-FH12A-12S0.5SH55"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12A-12S-05SH55/?qs=Ux3WWAnHpjBCmvKEtHAdxA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Hirose"/>
+      <property name="Manufacturer_Part_Number" value="FH12A-12S-0.5SH(55)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2908</tstamp>
+      <tstamps>d9bb133f-7fd6-4747-9839-4d69558e01a0</tstamps>
     </comp>
-    <comp ref="SW21">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="J3">
+      <value>FH12A-12S-0.5SH_55_</value>
+      <footprint>lib:FH12A12S05SH55</footprint>
+      <datasheet>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12A-12S-0.5SH(55)</datasheet>
+      <fields>
+        <field name="Description">Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</field>
+        <field name="Height">3.6</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12A-12S-0.5SH(55)</field>
+        <field name="Mouser Part Number">798-FH12A-12S0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12A-12S-05SH55/?qs=Ux3WWAnHpjBCmvKEtHAdxA%3D%3D</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="FH12A-12S-0.5SH_55_" description="Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Description" value="Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts"/>
+      <property name="Height" value="3.6"/>
+      <property name="Mouser Part Number" value="798-FH12A-12S0.5SH55"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12A-12S-05SH55/?qs=Ux3WWAnHpjBCmvKEtHAdxA%3D%3D"/>
+      <property name="Manufacturer_Name" value="Hirose"/>
+      <property name="Manufacturer_Part_Number" value="FH12A-12S-0.5SH(55)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2933</tstamp>
+      <tstamps>20e91a9a-7385-4e66-afc4-43e75dd09af0</tstamps>
     </comp>
-    <comp ref="SW26">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="J4">
+      <value>Conn_01x04_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x04_Male" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E295E</tstamp>
+      <tstamps>5de357eb-eea4-419b-9336-16a824067e38</tstamps>
     </comp>
-    <comp ref="SW31">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E298D</tstamp>
+      <tstamps>478950a9-b032-4b70-ba80-48040033542a</tstamps>
     </comp>
-    <comp ref="D16">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E29BF</tstamp>
+      <tstamps>7dc49d24-09b4-46ca-99df-b1cfc9c88580</tstamps>
     </comp>
-    <comp ref="D21">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E29F2</tstamp>
-    </comp>
-    <comp ref="D26">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2A33</tstamp>
-    </comp>
-    <comp ref="D31">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2A75</tstamp>
+      <tstamps>c80f4d03-3890-4389-a353-366a51d2766d</tstamps>
     </comp>
     <comp ref="SW1">
       <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2B19</tstamp>
-    </comp>
-    <comp ref="D1">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2B5B</tstamp>
-    </comp>
-    <comp ref="SW7">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D26</tstamp>
-    </comp>
-    <comp ref="D7">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D2C</tstamp>
-    </comp>
-    <comp ref="SW12">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D32</tstamp>
-    </comp>
-    <comp ref="D12">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D38</tstamp>
-    </comp>
-    <comp ref="SW17">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D3E</tstamp>
-    </comp>
-    <comp ref="SW22">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D44</tstamp>
-    </comp>
-    <comp ref="SW27">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D4A</tstamp>
-    </comp>
-    <comp ref="SW32">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D50</tstamp>
-    </comp>
-    <comp ref="D17">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D56</tstamp>
-    </comp>
-    <comp ref="D22">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D5C</tstamp>
-    </comp>
-    <comp ref="D27">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D62</tstamp>
-    </comp>
-    <comp ref="D32">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D68</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2b19</tstamps>
     </comp>
     <comp ref="SW2">
       <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D6E</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E2D74</tstamp>
-    </comp>
-    <comp ref="SW8">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35B1</tstamp>
-    </comp>
-    <comp ref="D8">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35B7</tstamp>
-    </comp>
-    <comp ref="SW13">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35BD</tstamp>
-    </comp>
-    <comp ref="D13">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35C3</tstamp>
-    </comp>
-    <comp ref="SW18">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35C9</tstamp>
-    </comp>
-    <comp ref="SW23">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35CF</tstamp>
-    </comp>
-    <comp ref="SW28">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35D5</tstamp>
-    </comp>
-    <comp ref="SW33">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35DB</tstamp>
-    </comp>
-    <comp ref="D18">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35E1</tstamp>
-    </comp>
-    <comp ref="D23">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35E7</tstamp>
-    </comp>
-    <comp ref="D28">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35ED</tstamp>
-    </comp>
-    <comp ref="D33">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35F3</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2699</tstamps>
     </comp>
     <comp ref="SW3">
       <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35F9</tstamp>
-    </comp>
-    <comp ref="D3">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E35FF</tstamp>
-    </comp>
-    <comp ref="SW9">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37A4</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37AA</tstamp>
-    </comp>
-    <comp ref="SW14">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37B0</tstamp>
-    </comp>
-    <comp ref="D14">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37B6</tstamp>
-    </comp>
-    <comp ref="SW19">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37BC</tstamp>
-    </comp>
-    <comp ref="SW24">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37C2</tstamp>
-    </comp>
-    <comp ref="SW29">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37C8</tstamp>
-    </comp>
-    <comp ref="SW34">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37CE</tstamp>
-    </comp>
-    <comp ref="D19">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37D4</tstamp>
-    </comp>
-    <comp ref="D24">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37DA</tstamp>
-    </comp>
-    <comp ref="D29">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37E0</tstamp>
-    </comp>
-    <comp ref="D34">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37E6</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e27f9</tstamps>
     </comp>
     <comp ref="SW4">
       <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37EC</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E37F2</tstamp>
-    </comp>
-    <comp ref="SW10">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3C85</tstamp>
-    </comp>
-    <comp ref="D10">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3C8B</tstamp>
-    </comp>
-    <comp ref="SW15">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3C91</tstamp>
-    </comp>
-    <comp ref="D15">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3C97</tstamp>
-    </comp>
-    <comp ref="SW20">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3C9D</tstamp>
-    </comp>
-    <comp ref="SW25">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CA3</tstamp>
-    </comp>
-    <comp ref="SW30">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CA9</tstamp>
-    </comp>
-    <comp ref="SW35">
-      <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CAF</tstamp>
-    </comp>
-    <comp ref="D20">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CB5</tstamp>
-    </comp>
-    <comp ref="D25">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CBB</tstamp>
-    </comp>
-    <comp ref="D30">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CC1</tstamp>
-    </comp>
-    <comp ref="D35">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CC7</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2908</tstamps>
     </comp>
     <comp ref="SW5">
       <value>SW_PUSH</value>
-      <footprint>footprint:MXALPS_FLIP_HOLES</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CCD</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2933</tstamps>
     </comp>
-    <comp ref="D5">
-      <value>D</value>
-      <footprint>Diodes_THT:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
-      <libsource lib="device" part="D"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5E3CD3</tstamp>
-    </comp>
-    <comp ref="RSW1">
+    <comp ref="SW6">
       <value>SW_PUSH</value>
-      <footprint>footprint:SKHL</footprint>
-      <libsource lib="lets_split-cache" part="SW_PUSH"/>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5EB9E2</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e295e</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>5PIN</value>
-      <footprint>library:trrs_jack</footprint>
-      <libsource lib="ergo42" part="5PIN"/>
+    <comp ref="SW7">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5ECD17</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d6e</tstamps>
     </comp>
-    <comp ref="R2">
-      <value>R</value>
-      <footprint>footprint:RESISTOR</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="SW8">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5EEC14</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d26</tstamps>
     </comp>
-    <comp ref="R1">
-      <value>R</value>
-      <footprint>footprint:RESISTOR</footprint>
-      <libsource lib="device" part="R"/>
+    <comp ref="SW9">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5F1617</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d32</tstamps>
     </comp>
-    <comp ref="JP1">
-      <value>Jumper_NO_Small</value>
-      <footprint>library:jumper_smd_2dub</footprint>
-      <libsource lib="device" part="Jumper_NO_Small"/>
+    <comp ref="SW10">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5A5F1A29</tstamp>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d3e</tstamps>
+    </comp>
+    <comp ref="SW11">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d44</tstamps>
+    </comp>
+    <comp ref="SW12">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e2d4a</tstamps>
+    </comp>
+    <comp ref="SW13">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35f9</tstamps>
+    </comp>
+    <comp ref="SW14">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35b1</tstamps>
+    </comp>
+    <comp ref="SW15">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35bd</tstamps>
+    </comp>
+    <comp ref="SW16">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35c9</tstamps>
+    </comp>
+    <comp ref="SW17">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35cf</tstamps>
+    </comp>
+    <comp ref="SW18">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e35d5</tstamps>
+    </comp>
+    <comp ref="SW19">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e37ec</tstamps>
+    </comp>
+    <comp ref="SW20">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e37a4</tstamps>
+    </comp>
+    <comp ref="SW21">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005a5e37b0</tstamps>
+    </comp>
+    <comp ref="SW22">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b4ce696-320c-4700-8fdf-5a91d5bd8e11</tstamps>
+    </comp>
+    <comp ref="SW23">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e27996e-8484-48ce-b368-9a43f2d1c5f1</tstamps>
+    </comp>
+    <comp ref="SW24">
+      <value>SW_PUSH</value>
+      <footprint>User-defined-footprints:kbd-switches</footprint>
+      <libsource lib="corne-chocolate-rescue" part="SW_PUSH-kbd" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca6f43aa-378c-4250-a0fa-fe5ba901f42a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>waveshare-rp2040-zero</value>
+      <footprint>User-defined-footprints:rp2040-zero-mr</footprint>
+      <libsource lib="User-defiend-symbols" part="waveshare-rp2040-zero" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="corne-chocolate.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3cc6965-5da1-4110-b47b-fcbf8f8dd6fc</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="ergo42" part="5PIN">
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">5PIN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="power_in"/>
-        <pin num="2" name="2" type="BiDi"/>
-        <pin num="3" name="3" type="BiDi"/>
-        <pin num="4" name="4" type="power_in"/>
-        <pin num="5" name="5" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="D">
-      <description>Diode</description>
+    <libpart lib="Connector" part="Conn_01x04_Male">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>TO-???*</fp>
-        <fp>*SingleDiode</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
+        <fp>Connector*:*_1x??_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D</field>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Male</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Jumper_NO_Small">
-      <description>Jumper, normally open</description>
+    <libpart lib="Cyberdeck Mech Keeb-cache" part="Cyberdeck_Mech_Keeb-eagle-import_PCA9505">
       <fields>
-        <field name="Reference">JP</field>
-        <field name="Value">Jumper_NO_Small</field>
+        <field name="Reference">IC</field>
+        <field name="Value">Cyberdeck_Mech_Keeb-eagle-import_PCA9505</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="IO0_0" type="bidirectional"/>
+        <pin num="4" name="IO0_1" type="bidirectional"/>
+        <pin num="5" name="IO0_2" type="bidirectional"/>
+        <pin num="6" name="VSS@1" type="power_in"/>
+        <pin num="7" name="IO0_3" type="bidirectional"/>
+        <pin num="8" name="IO0_4" type="bidirectional"/>
+        <pin num="9" name="IO0_5" type="bidirectional"/>
+        <pin num="10" name="IO0_6" type="bidirectional"/>
+        <pin num="11" name="VSS@2" type="power_in"/>
+        <pin num="12" name="IO0_7" type="bidirectional"/>
+        <pin num="13" name="IO1_0" type="bidirectional"/>
+        <pin num="14" name="IO1_1" type="bidirectional"/>
+        <pin num="15" name="IO1_2" type="bidirectional"/>
+        <pin num="16" name="IO1_3" type="bidirectional"/>
+        <pin num="17" name="IO1_4" type="bidirectional"/>
+        <pin num="18" name="VDD@1" type="power_in"/>
+        <pin num="19" name="IO1_5" type="bidirectional"/>
+        <pin num="20" name="IO1_6" type="bidirectional"/>
+        <pin num="21" name="IO1_7" type="bidirectional"/>
+        <pin num="22" name="IO2_0" type="bidirectional"/>
+        <pin num="23" name="VSS@3" type="power_in"/>
+        <pin num="24" name="IO2_1" type="bidirectional"/>
+        <pin num="25" name="IO2_2" type="bidirectional"/>
+        <pin num="26" name="IO2_3" type="bidirectional"/>
+        <pin num="27" name="A0" type="input"/>
+        <pin num="28" name="A1" type="input"/>
+        <pin num="29" name="A2" type="input"/>
+        <pin num="30" name="~{OE}" type="input"/>
+        <pin num="31" name="IO2_4" type="bidirectional"/>
+        <pin num="32" name="IO2_5" type="bidirectional"/>
+        <pin num="33" name="IO2_6" type="bidirectional"/>
+        <pin num="34" name="VSS@4" type="power_in"/>
+        <pin num="35" name="IO2_7" type="bidirectional"/>
+        <pin num="36" name="IO3_0" type="bidirectional"/>
+        <pin num="37" name="IO3_1" type="bidirectional"/>
+        <pin num="38" name="IO3_2" type="bidirectional"/>
+        <pin num="39" name="VSS@5" type="power_in"/>
+        <pin num="40" name="IO3_3" type="bidirectional"/>
+        <pin num="41" name="IO3_4" type="bidirectional"/>
+        <pin num="42" name="IO3_5" type="bidirectional"/>
+        <pin num="43" name="IO3_6" type="bidirectional"/>
+        <pin num="44" name="IO3_7" type="bidirectional"/>
+        <pin num="45" name="IO4_0" type="bidirectional"/>
+        <pin num="46" name="VDD@2" type="power_in"/>
+        <pin num="47" name="IO4_1" type="bidirectional"/>
+        <pin num="48" name="IO4_2" type="bidirectional"/>
+        <pin num="49" name="IO4_3" type="bidirectional"/>
+        <pin num="50" name="IO4_4" type="bidirectional"/>
+        <pin num="51" name="VSS@6" type="power_in"/>
+        <pin num="52" name="IO4_5" type="bidirectional"/>
+        <pin num="53" name="IO4_6" type="bidirectional"/>
+        <pin num="54" name="IO4_7" type="bidirectional"/>
+        <pin num="55" name="~{INT}" type="input"/>
+        <pin num="56" name="~{RESET}" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="promicro" part="ProMicro">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ProMicro</field>
-      </fields>
-      <pins>
-        <pin num="1" name="TX" type="BiDi"/>
-        <pin num="2" name="RX" type="BiDi"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="GND" type="power_in"/>
-        <pin num="5" name="SCL" type="BiDi"/>
-        <pin num="6" name="SDA" type="BiDi"/>
-        <pin num="7" name="D4" type="BiDi"/>
-        <pin num="8" name="C6" type="BiDi"/>
-        <pin num="9" name="D7" type="BiDi"/>
-        <pin num="10" name="E6" type="BiDi"/>
-        <pin num="11" name="B4" type="BiDi"/>
-        <pin num="12" name="B5" type="BiDi"/>
-        <pin num="13" name="B6" type="BiDi"/>
-        <pin num="14" name="B2" type="BiDi"/>
-        <pin num="15" name="B3" type="BiDi"/>
-        <pin num="16" name="B1" type="BiDi"/>
-        <pin num="17" name="F7" type="BiDi"/>
-        <pin num="18" name="F6" type="BiDi"/>
-        <pin num="19" name="F5" type="BiDi"/>
-        <pin num="20" name="F4" type="BiDi"/>
-        <pin num="21" name="VCC" type="power_in"/>
-        <pin num="22" name="RST" type="input"/>
-        <pin num="23" name="GND" type="power_in"/>
-        <pin num="24" name="RAW" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="R">
+    <libpart lib="Device" part="R">
       <description>Resistor</description>
+      <docs>~</docs>
       <footprints>
-        <fp>R_*</fp>
         <fp>R_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="lets_split-cache" part="SW_PUSH">
+    <libpart lib="SamacSys_Parts" part="FH12A-12S-0.5SH_55_">
+      <description>Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</description>
+      <docs>https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12A-12S-0.5SH(55)</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">FH12A-12S-0.5SH_55_</field>
+        <field name="Footprint">FH12A12S05SH55</field>
+        <field name="Datasheet">https://www.hirose.com/product/download/?distributor=digikey&amp;type=2d&amp;lang=en&amp;num=FH12A-12S-0.5SH(55)</field>
+        <field name="Description">Hirose FH12 Series 0.5mm Pitch 12 Way 1 Row Right Angle SMT Female FPC Connector, Gold Plated Contacts</field>
+        <field name="Height">3.6</field>
+        <field name="Mouser Part Number">798-FH12A-12S0.5SH55</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Hirose-Connector/FH12A-12S-05SH55/?qs=Ux3WWAnHpjBCmvKEtHAdxA%3D%3D</field>
+        <field name="Manufacturer_Name">Hirose</field>
+        <field name="Manufacturer_Part_Number">FH12A-12S-0.5SH(55)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="User-defiend-symbols" part="waveshare-rp2040-zero">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">waveshare-rp2040-zero</field>
+      </fields>
+      <pins>
+        <pin num="0" name="GP0" type="power_in"/>
+        <pin num="1" name="GP1" type="bidirectional"/>
+        <pin num="2" name="GP2" type="bidirectional"/>
+        <pin num="3" name="GP3" type="bidirectional"/>
+        <pin num="4" name="GP4" type="bidirectional"/>
+        <pin num="5" name="GP5" type="bidirectional"/>
+        <pin num="6" name="GP6" type="bidirectional"/>
+        <pin num="7" name="GP7" type="bidirectional"/>
+        <pin num="8" name="GP8" type="bidirectional"/>
+        <pin num="9" name="GP9" type="bidirectional"/>
+        <pin num="10" name="GP10" type="bidirectional"/>
+        <pin num="11" name="GP11" type="bidirectional"/>
+        <pin num="12" name="GP12" type="bidirectional"/>
+        <pin num="13" name="GP13" type="bidirectional"/>
+        <pin num="14" name="GP14" type="bidirectional"/>
+        <pin num="15" name="GP15" type="bidirectional"/>
+        <pin num="16" name="GP26" type="bidirectional"/>
+        <pin num="17" name="GP27" type="bidirectional"/>
+        <pin num="18" name="GP28" type="bidirectional"/>
+        <pin num="19" name="GP29" type="bidirectional"/>
+        <pin num="20" name="3V3" type="power_in"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="corne-chocolate-rescue" part="MJ-4PP-9-kbd">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MJ-4PP-9-kbd</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="input"/>
+        <pin num="B" name="" type="input"/>
+        <pin num="C" name="" type="input"/>
+        <pin num="D" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="corne-chocolate-rescue" part="SW_PUSH-kbd">
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">SW_PUSH</field>
+        <field name="Value">SW_PUSH-kbd</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="pspice" part="C">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>D:\ProgramFiles\Kicad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Cyberdeck Mech Keeb-cache">
+      <uri>D:/User/GITS/MiRage/PCB-kicad/Cyberdeck Mech Keeb-cache.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\ProgramFiles\Kicad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>D:/ProgramFiles/Kicad/6.0/lib/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="User-defiend-symbols">
+      <uri>C:/Users/werne/Documents/KiCad/6.0/symbols/User-defiend-symbols.kicad_sym</uri>
+    </library>
+    <library logical="corne-chocolate-rescue">
+      <uri>D:\User\GITS\crkbd\corne-chocolate\pcb/corne-chocolate-rescue.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>D:\ProgramFiles\Kicad\6.0\share\kicad\symbols\/pspice.kicad_sym</uri>
+    </library>
+  </libraries>
   <nets>
-    <net code="1" name="VCC">
-      <node ref="J1" pin="1"/>
-      <node ref="R1" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="21"/>
+    <net code="1" name="0r0">
+      <node ref="IC1" pin="19" pinfunction="IO1_5" pintype="bidirectional"/>
+      <node ref="IC2" pin="38" pinfunction="IO3_2" pintype="bidirectional"/>
+      <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="J1" pin="4"/>
-      <node ref="J1" pin="5"/>
-      <node ref="RSW1" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="23"/>
+    <net code="2" name="0r1">
+      <node ref="IC1" pin="17" pinfunction="IO1_4" pintype="bidirectional"/>
+      <node ref="IC2" pin="40" pinfunction="IO3_3" pintype="bidirectional"/>
+      <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="3" name="xtradata">
-      <node ref="JP1" pin="2"/>
-      <node ref="J1" pin="2"/>
+    <net code="3" name="0r2">
+      <node ref="IC1" pin="16" pinfunction="IO1_3" pintype="bidirectional"/>
+      <node ref="IC2" pin="41" pinfunction="IO3_4" pintype="bidirectional"/>
+      <node ref="SW16" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="4" name="scl">
-      <node ref="U1" pin="5"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="R1" pin="2"/>
+    <net code="4" name="0r3">
+      <node ref="IC1" pin="15" pinfunction="IO1_2" pintype="bidirectional"/>
+      <node ref="IC2" pin="42" pinfunction="IO3_5" pintype="bidirectional"/>
+      <node ref="SW15" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="5" name="sda">
-      <node ref="U1" pin="6"/>
-      <node ref="J1" pin="3"/>
-      <node ref="R2" pin="2"/>
+    <net code="5" name="0r4">
+      <node ref="IC1" pin="14" pinfunction="IO1_1" pintype="bidirectional"/>
+      <node ref="IC2" pin="43" pinfunction="IO3_6" pintype="bidirectional"/>
+      <node ref="SW14" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(U1-Pad7)">
-      <node ref="U1" pin="7"/>
+    <net code="6" name="0r5">
+      <node ref="IC1" pin="13" pinfunction="IO1_0" pintype="bidirectional"/>
+      <node ref="IC2" pin="44" pinfunction="IO3_7" pintype="bidirectional"/>
+      <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(U1-Pad2)">
-      <node ref="U1" pin="2"/>
+    <net code="7" name="1r0">
+      <node ref="IC1" pin="37" pinfunction="IO3_1" pintype="bidirectional"/>
+      <node ref="IC2" pin="20" pinfunction="IO1_6" pintype="bidirectional"/>
+      <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(U1-Pad1)">
-      <node ref="U1" pin="1"/>
+    <net code="8" name="1r1">
+      <node ref="IC1" pin="36" pinfunction="IO3_0" pintype="bidirectional"/>
+      <node ref="IC2" pin="21" pinfunction="IO1_7" pintype="bidirectional"/>
+      <node ref="SW5" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
+    <net code="9" name="1r2">
+      <node ref="IC1" pin="35" pinfunction="IO2_7" pintype="bidirectional"/>
+      <node ref="IC2" pin="22" pinfunction="IO2_0" pintype="bidirectional"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(U1-Pad24)">
-      <node ref="U1" pin="24"/>
+    <net code="10" name="1r3">
+      <node ref="IC1" pin="33" pinfunction="IO2_6" pintype="bidirectional"/>
+      <node ref="IC2" pin="24" pinfunction="IO2_1" pintype="bidirectional"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(RSW1-Pad1)">
-      <node ref="RSW1" pin="1"/>
-      <node ref="U1" pin="22"/>
+    <net code="11" name="1r4">
+      <node ref="IC1" pin="32" pinfunction="IO2_5" pintype="bidirectional"/>
+      <node ref="IC2" pin="25" pinfunction="IO2_2" pintype="bidirectional"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2"/>
-      <node ref="SW12" pin="2"/>
+    <net code="12" name="1r5">
+      <node ref="IC1" pin="31" pinfunction="IO2_4" pintype="bidirectional"/>
+      <node ref="IC2" pin="26" pinfunction="IO2_3" pintype="bidirectional"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="13" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2"/>
-      <node ref="SW7" pin="2"/>
+    <net code="13" name="2r0">
+      <node ref="IC1" pin="26" pinfunction="IO2_3" pintype="bidirectional"/>
+      <node ref="IC2" pin="31" pinfunction="IO2_4" pintype="bidirectional"/>
+      <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="14" name="Net-(D1-Pad2)">
-      <node ref="SW1" pin="2"/>
-      <node ref="D1" pin="2"/>
+    <net code="14" name="2r1">
+      <node ref="IC1" pin="25" pinfunction="IO2_2" pintype="bidirectional"/>
+      <node ref="IC2" pin="32" pinfunction="IO2_5" pintype="bidirectional"/>
+      <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="15" name="Net-(D31-Pad2)">
-      <node ref="D31" pin="2"/>
-      <node ref="SW31" pin="2"/>
+    <net code="15" name="2r2">
+      <node ref="IC1" pin="24" pinfunction="IO2_1" pintype="bidirectional"/>
+      <node ref="IC2" pin="33" pinfunction="IO2_6" pintype="bidirectional"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="16" name="Net-(D26-Pad2)">
-      <node ref="SW26" pin="2"/>
-      <node ref="D26" pin="2"/>
+    <net code="16" name="2r3">
+      <node ref="IC1" pin="22" pinfunction="IO2_0" pintype="bidirectional"/>
+      <node ref="IC2" pin="35" pinfunction="IO2_7" pintype="bidirectional"/>
+      <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="17" name="Net-(D21-Pad2)">
-      <node ref="SW21" pin="2"/>
-      <node ref="D21" pin="2"/>
+    <net code="17" name="2r4">
+      <node ref="IC1" pin="21" pinfunction="IO1_7" pintype="bidirectional"/>
+      <node ref="IC2" pin="36" pinfunction="IO3_0" pintype="bidirectional"/>
+      <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="18" name="Net-(D16-Pad2)">
-      <node ref="SW16" pin="2"/>
-      <node ref="D16" pin="2"/>
+    <net code="18" name="2r5">
+      <node ref="IC1" pin="20" pinfunction="IO1_6" pintype="bidirectional"/>
+      <node ref="IC2" pin="37" pinfunction="IO3_1" pintype="bidirectional"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2"/>
-      <node ref="SW8" pin="2"/>
+    <net code="19" name="3r0">
+      <node ref="IC1" pin="44" pinfunction="IO3_7" pintype="bidirectional"/>
+      <node ref="IC2" pin="13" pinfunction="IO1_0" pintype="bidirectional"/>
+      <node ref="SW24" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="20" name="Net-(D2-Pad2)">
-      <node ref="SW2" pin="2"/>
-      <node ref="D2" pin="2"/>
+    <net code="20" name="3r1">
+      <node ref="IC1" pin="43" pinfunction="IO3_6" pintype="bidirectional"/>
+      <node ref="IC2" pin="14" pinfunction="IO1_1" pintype="bidirectional"/>
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="21" name="Net-(D32-Pad2)">
-      <node ref="D32" pin="2"/>
-      <node ref="SW32" pin="2"/>
+    <net code="21" name="3r2">
+      <node ref="IC1" pin="42" pinfunction="IO3_5" pintype="bidirectional"/>
+      <node ref="IC2" pin="15" pinfunction="IO1_2" pintype="bidirectional"/>
+      <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(D27-Pad2)">
-      <node ref="D27" pin="2"/>
-      <node ref="SW27" pin="2"/>
+    <net code="22" name="3r3">
+      <node ref="IC1" pin="41" pinfunction="IO3_4" pintype="bidirectional"/>
+      <node ref="IC2" pin="16" pinfunction="IO1_3" pintype="bidirectional"/>
+      <node ref="SW21" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(D22-Pad2)">
-      <node ref="D22" pin="2"/>
-      <node ref="SW22" pin="2"/>
+    <net code="23" name="3r4">
+      <node ref="IC1" pin="40" pinfunction="IO3_3" pintype="bidirectional"/>
+      <node ref="IC2" pin="17" pinfunction="IO1_4" pintype="bidirectional"/>
+      <node ref="SW20" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(D17-Pad2)">
-      <node ref="SW17" pin="2"/>
-      <node ref="D17" pin="2"/>
+    <net code="24" name="3r5">
+      <node ref="IC1" pin="38" pinfunction="IO3_2" pintype="bidirectional"/>
+      <node ref="IC2" pin="19" pinfunction="IO1_5" pintype="bidirectional"/>
+      <node ref="SW19" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="25" name="row1">
-      <node ref="D12" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="U1" pin="9"/>
-      <node ref="D17" pin="1"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D27" pin="1"/>
-      <node ref="D32" pin="1"/>
-      <node ref="D2" pin="1"/>
+    <net code="25" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="VSS@2" pintype="power_in"/>
+      <node ref="IC1" pin="23" pinfunction="VSS@3" pintype="power_in"/>
+      <node ref="IC1" pin="27" pinfunction="A0" pintype="input"/>
+      <node ref="IC1" pin="28" pinfunction="A1" pintype="input"/>
+      <node ref="IC1" pin="29" pinfunction="A2" pintype="input"/>
+      <node ref="IC1" pin="34" pinfunction="VSS@4" pintype="power_in"/>
+      <node ref="IC1" pin="39" pinfunction="VSS@5" pintype="power_in"/>
+      <node ref="IC1" pin="51" pinfunction="VSS@6" pintype="power_in"/>
+      <node ref="IC1" pin="6" pinfunction="VSS@1" pintype="power_in"/>
+      <node ref="IC2" pin="11" pinfunction="VSS@2" pintype="power_in"/>
+      <node ref="IC2" pin="23" pinfunction="VSS@3" pintype="power_in"/>
+      <node ref="IC2" pin="28" pinfunction="A1" pintype="input"/>
+      <node ref="IC2" pin="29" pinfunction="A2" pintype="input"/>
+      <node ref="IC2" pin="34" pinfunction="VSS@4" pintype="power_in"/>
+      <node ref="IC2" pin="39" pinfunction="VSS@5" pintype="power_in"/>
+      <node ref="IC2" pin="51" pinfunction="VSS@6" pintype="power_in"/>
+      <node ref="IC2" pin="6" pinfunction="VSS@1" pintype="power_in"/>
+      <node ref="J1" pin="C" pintype="input"/>
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J2" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J2" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="MP1" pinfunction="MP1" pintype="passive"/>
+      <node ref="J3" pin="MP2" pinfunction="MP2" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW12" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW14" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW15" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW16" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="26" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2"/>
-      <node ref="SW11" pin="2"/>
+    <net code="26" name="SCL0">
+      <node ref="IC1" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="IC2" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="J1" pin="A" pintype="input"/>
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GP1" pintype="bidirectional"/>
     </net>
-    <net code="27" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="SW6" pin="2"/>
+    <net code="27" name="SDA0">
+      <node ref="IC1" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="IC2" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="J1" pin="B" pintype="input"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="0" pinfunction="GP0" pintype="power_in"/>
     </net>
-    <net code="28" name="row0">
-      <node ref="D21" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D1" pin="1"/>
+    <net code="28" name="VCC">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="18" pinfunction="VDD@1" pintype="power_in"/>
+      <node ref="IC1" pin="46" pinfunction="VDD@2" pintype="power_in"/>
+      <node ref="IC2" pin="18" pinfunction="VDD@1" pintype="power_in"/>
+      <node ref="IC2" pin="27" pinfunction="A0" pintype="input"/>
+      <node ref="IC2" pin="46" pinfunction="VDD@2" pintype="power_in"/>
+      <node ref="J1" pin="D" pintype="input"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="3V3" pintype="power_in"/>
     </net>
-    <net code="29" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2"/>
-      <node ref="SW15" pin="2"/>
+    <net code="29" name="reset">
+      <node ref="IC1" pin="56" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="IC2" pin="56" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="R5" pin="2" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(D10-Pad2)">
-      <node ref="SW10" pin="2"/>
-      <node ref="D10" pin="2"/>
+    <net code="30" name="unconnected-(IC1-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="IO0_0" pintype="bidirectional"/>
     </net>
-    <net code="31" name="Net-(D4-Pad2)">
-      <node ref="SW4" pin="2"/>
-      <node ref="D4" pin="2"/>
+    <net code="31" name="unconnected-(IC1-Pad4)">
+      <node ref="IC1" pin="4" pinfunction="IO0_1" pintype="bidirectional"/>
     </net>
-    <net code="32" name="Net-(D34-Pad2)">
-      <node ref="D34" pin="2"/>
-      <node ref="SW34" pin="2"/>
+    <net code="32" name="unconnected-(IC1-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="IO0_2" pintype="bidirectional"/>
     </net>
-    <net code="33" name="Net-(D29-Pad2)">
-      <node ref="D29" pin="2"/>
-      <node ref="SW29" pin="2"/>
+    <net code="33" name="unconnected-(IC1-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="IO0_3" pintype="bidirectional"/>
     </net>
-    <net code="34" name="Net-(D24-Pad2)">
-      <node ref="D24" pin="2"/>
-      <node ref="SW24" pin="2"/>
+    <net code="34" name="unconnected-(IC1-Pad8)">
+      <node ref="IC1" pin="8" pinfunction="IO0_4" pintype="bidirectional"/>
     </net>
-    <net code="35" name="Net-(D19-Pad2)">
-      <node ref="D19" pin="2"/>
-      <node ref="SW19" pin="2"/>
+    <net code="35" name="unconnected-(IC1-Pad9)">
+      <node ref="IC1" pin="9" pinfunction="IO0_5" pintype="bidirectional"/>
     </net>
-    <net code="36" name="Net-(D5-Pad2)">
-      <node ref="SW5" pin="2"/>
-      <node ref="D5" pin="2"/>
+    <net code="36" name="unconnected-(IC1-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="IO0_6" pintype="bidirectional"/>
     </net>
-    <net code="37" name="Net-(D35-Pad2)">
-      <node ref="SW35" pin="2"/>
-      <node ref="D35" pin="2"/>
+    <net code="37" name="unconnected-(IC1-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="IO0_7" pintype="bidirectional"/>
     </net>
-    <net code="38" name="Net-(D30-Pad2)">
-      <node ref="D30" pin="2"/>
-      <node ref="SW30" pin="2"/>
+    <net code="38" name="unconnected-(IC1-Pad30)">
+      <node ref="IC1" pin="30" pinfunction="~{OE}" pintype="input"/>
     </net>
-    <net code="39" name="Net-(D25-Pad2)">
-      <node ref="SW25" pin="2"/>
-      <node ref="D25" pin="2"/>
+    <net code="39" name="unconnected-(IC1-Pad45)">
+      <node ref="IC1" pin="45" pinfunction="IO4_0" pintype="bidirectional"/>
     </net>
-    <net code="40" name="Net-(D20-Pad2)">
-      <node ref="D20" pin="2"/>
-      <node ref="SW20" pin="2"/>
+    <net code="40" name="unconnected-(IC1-Pad47)">
+      <node ref="IC1" pin="47" pinfunction="IO4_1" pintype="bidirectional"/>
     </net>
-    <net code="41" name="row4">
-      <node ref="D15" pin="1"/>
-      <node ref="U1" pin="12"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D35" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="D20" pin="1"/>
-      <node ref="D25" pin="1"/>
+    <net code="41" name="unconnected-(IC1-Pad48)">
+      <node ref="IC1" pin="48" pinfunction="IO4_2" pintype="bidirectional"/>
     </net>
-    <net code="42" name="Net-(D28-Pad2)">
-      <node ref="D28" pin="2"/>
-      <node ref="SW28" pin="2"/>
+    <net code="42" name="unconnected-(IC1-Pad49)">
+      <node ref="IC1" pin="49" pinfunction="IO4_3" pintype="bidirectional"/>
     </net>
-    <net code="43" name="Net-(D23-Pad2)">
-      <node ref="D23" pin="2"/>
-      <node ref="SW23" pin="2"/>
+    <net code="43" name="unconnected-(IC1-Pad50)">
+      <node ref="IC1" pin="50" pinfunction="IO4_4" pintype="bidirectional"/>
     </net>
-    <net code="44" name="Net-(D18-Pad2)">
-      <node ref="SW18" pin="2"/>
-      <node ref="D18" pin="2"/>
+    <net code="44" name="unconnected-(IC1-Pad52)">
+      <node ref="IC1" pin="52" pinfunction="IO4_5" pintype="bidirectional"/>
     </net>
-    <net code="45" name="Net-(D33-Pad2)">
-      <node ref="D33" pin="2"/>
-      <node ref="SW33" pin="2"/>
+    <net code="45" name="unconnected-(IC1-Pad53)">
+      <node ref="IC1" pin="53" pinfunction="IO4_6" pintype="bidirectional"/>
     </net>
-    <net code="46" name="Net-(D13-Pad2)">
-      <node ref="SW13" pin="2"/>
-      <node ref="D13" pin="2"/>
+    <net code="46" name="unconnected-(IC1-Pad54)">
+      <node ref="IC1" pin="54" pinfunction="IO4_7" pintype="bidirectional"/>
     </net>
-    <net code="47" name="col6">
-      <node ref="SW31" pin="1"/>
-      <node ref="SW32" pin="1"/>
-      <node ref="SW33" pin="1"/>
-      <node ref="SW35" pin="1"/>
-      <node ref="SW34" pin="1"/>
-      <node ref="U1" pin="13"/>
+    <net code="47" name="unconnected-(IC1-Pad55)">
+      <node ref="IC1" pin="55" pinfunction="~{INT}" pintype="input+no_connect"/>
     </net>
-    <net code="48" name="col5">
-      <node ref="SW26" pin="1"/>
-      <node ref="SW29" pin="1"/>
-      <node ref="SW30" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="SW28" pin="1"/>
-      <node ref="SW27" pin="1"/>
+    <net code="48" name="unconnected-(IC2-Pad3)">
+      <node ref="IC2" pin="3" pinfunction="IO0_0" pintype="bidirectional"/>
     </net>
-    <net code="49" name="col4">
-      <node ref="SW25" pin="1"/>
-      <node ref="SW21" pin="1"/>
-      <node ref="SW23" pin="1"/>
-      <node ref="SW22" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="SW24" pin="1"/>
+    <net code="49" name="unconnected-(IC2-Pad4)">
+      <node ref="IC2" pin="4" pinfunction="IO0_1" pintype="bidirectional"/>
     </net>
-    <net code="50" name="col3">
-      <node ref="SW18" pin="1"/>
-      <node ref="SW20" pin="1"/>
-      <node ref="U1" pin="16"/>
-      <node ref="SW19" pin="1"/>
-      <node ref="SW17" pin="1"/>
-      <node ref="SW16" pin="1"/>
+    <net code="50" name="unconnected-(IC2-Pad5)">
+      <node ref="IC2" pin="5" pinfunction="IO0_2" pintype="bidirectional"/>
     </net>
-    <net code="51" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
-      <node ref="SW14" pin="2"/>
+    <net code="51" name="unconnected-(IC2-Pad7)">
+      <node ref="IC2" pin="7" pinfunction="IO0_3" pintype="bidirectional"/>
     </net>
-    <net code="52" name="col2">
-      <node ref="SW13" pin="1"/>
-      <node ref="SW12" pin="1"/>
-      <node ref="SW14" pin="1"/>
-      <node ref="SW15" pin="1"/>
-      <node ref="SW11" pin="1"/>
-      <node ref="U1" pin="17"/>
+    <net code="52" name="unconnected-(IC2-Pad8)">
+      <node ref="IC2" pin="8" pinfunction="IO0_4" pintype="bidirectional"/>
     </net>
-    <net code="53" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
-      <node ref="SW9" pin="2"/>
+    <net code="53" name="unconnected-(IC2-Pad9)">
+      <node ref="IC2" pin="9" pinfunction="IO0_5" pintype="bidirectional"/>
     </net>
-    <net code="54" name="row3">
-      <node ref="D19" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D29" pin="1"/>
-      <node ref="D34" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D14" pin="1"/>
-      <node ref="U1" pin="11"/>
-      <node ref="D9" pin="1"/>
+    <net code="54" name="unconnected-(IC2-Pad10)">
+      <node ref="IC2" pin="10" pinfunction="IO0_6" pintype="bidirectional"/>
     </net>
-    <net code="55" name="col1">
-      <node ref="SW9" pin="1"/>
-      <node ref="SW8" pin="1"/>
-      <node ref="SW10" pin="1"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="U1" pin="18"/>
-      <node ref="SW6" pin="1"/>
+    <net code="55" name="unconnected-(IC2-Pad12)">
+      <node ref="IC2" pin="12" pinfunction="IO0_7" pintype="bidirectional"/>
     </net>
-    <net code="56" name="Net-(D3-Pad2)">
-      <node ref="SW3" pin="2"/>
-      <node ref="D3" pin="2"/>
+    <net code="56" name="unconnected-(IC2-Pad30)">
+      <node ref="IC2" pin="30" pinfunction="~{OE}" pintype="input"/>
     </net>
-    <net code="57" name="row2">
-      <node ref="U1" pin="10"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="D33" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D18" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="D28" pin="1"/>
+    <net code="57" name="unconnected-(IC2-Pad45)">
+      <node ref="IC2" pin="45" pinfunction="IO4_0" pintype="bidirectional"/>
     </net>
-    <net code="58" name="col0">
-      <node ref="U1" pin="19"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW2" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="SW4" pin="1"/>
-      <node ref="SW5" pin="1"/>
+    <net code="58" name="unconnected-(IC2-Pad47)">
+      <node ref="IC2" pin="47" pinfunction="IO4_1" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="unconnected-(IC2-Pad48)">
+      <node ref="IC2" pin="48" pinfunction="IO4_2" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="unconnected-(IC2-Pad49)">
+      <node ref="IC2" pin="49" pinfunction="IO4_3" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="unconnected-(IC2-Pad50)">
+      <node ref="IC2" pin="50" pinfunction="IO4_4" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="unconnected-(IC2-Pad52)">
+      <node ref="IC2" pin="52" pinfunction="IO4_5" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="unconnected-(IC2-Pad53)">
+      <node ref="IC2" pin="53" pinfunction="IO4_6" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="unconnected-(IC2-Pad54)">
+      <node ref="IC2" pin="54" pinfunction="IO4_7" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="unconnected-(IC2-Pad55)">
+      <node ref="IC2" pin="55" pinfunction="~{INT}" pintype="input+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pad5)">
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="GP2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="GP3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="GP4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="GP5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="GP6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="GP7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="GP8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="GP9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U1-Pad10)">
+      <node ref="U1" pin="10" pinfunction="GP10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U1-Pad11)">
+      <node ref="U1" pin="11" pinfunction="GP11" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="GP12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="GP13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="GP14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="GP15" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="GP26" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U1-Pad17)">
+      <node ref="U1" pin="17" pinfunction="GP27" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U1-Pad18)">
+      <node ref="U1" pin="18" pinfunction="GP28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U1-Pad19)">
+      <node ref="U1" pin="19" pinfunction="GP29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U1-Pad22)">
+      <node ref="U1" pin="22" pinfunction="5V" pintype="power_in+no_connect"/>
     </net>
   </nets>
 </export>
